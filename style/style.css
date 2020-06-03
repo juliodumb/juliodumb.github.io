@@ -7,27 +7,21 @@ html, body {
   background-color: #333333;
    height:80px;
     
-  height:80px;
-
 }
 
 
 .menuesquerda ul li{
-  padding: 18px;
+  padding: 17px;
   display: inline-block;
   float: left;
    }
 
 
 
-}
 .redes-sociais ul li {
 margin-left: 16px;
 display: inline-block;
 float: right;
-
-  margin-left: 16px;
-  display: inline-block;
 
 }
 
@@ -35,7 +29,7 @@ float: right;
 
 body {
   background-color: #b1f7c6;
-
+  
 }
 
 
@@ -45,14 +39,12 @@ main2 {
 float: right;
 margin-right: 20px;
 position: relative;
-.main2 {
-  float: right;
-  margin-right: 20px;
-  position: relative;
 }
 
 #main {
-@@ -48,7 +35,10 @@ position: relative;
+  padding:5px;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 #header_title img {
@@ -60,36 +52,20 @@ position: relative;
   width:100%;
   max-width:1900px;
 }
-#header_title_mobile img {
-  width:100%;
-  max-width:1900px;
-}
-@@ -58,7 +48,7 @@ position: relative;
+
+#grid {
+  display:flex;
   max-width: 1650px;
   flex-wrap: wrap;
   margin: 0 auto;
 
-  
 }
 .grid_item {
   display:flex;
-@@ -70,9 +60,17 @@ position: relative;
-  flex:1;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
 }
-
-
-/* 
-Daqui para baixo é ajuste do mobile
-*/
-
-@media screen and (max-width:414px) {
-  .grid_item {
-    padding:2px 5px 2px 5px;
-  }
-  .main2 {
-    display: none;
-  }
-  #header_title {
-    display:none;
-  }
+.grid_item img {
+  flex:1;
 }
