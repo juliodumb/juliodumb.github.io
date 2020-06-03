@@ -5,28 +5,40 @@ html, body {
 
 .menu  {
   background-color: #333333;
-  height:80px;
-  
+   height:80px;
+    
 }
+
+
 .menuesquerda ul li{
   padding: 17px;
   display: inline-block;
   float: left;
-}
+   }
+
+
+
 .redes-sociais ul li {
-  margin-left: 16px;
-  display: inline-block;
-  float: right;
+margin-left: 16px;
+display: inline-block;
+float: right;
+
 }
+
+
+
 body {
   background-color: #b1f7c6;
   
 }
 
+
+
+
 main2 {
-  float: right;
-  margin-right: 20px;
-  position: relative;
+float: right;
+margin-right: 20px;
+position: relative;
 }
 
 #main {
@@ -35,20 +47,18 @@ main2 {
   align-items: center;
   justify-content: center;
 }
-
 #header_title img {
+  padding 500px;
   width:100%;
   max-width:1900px;
 }
-#header_title_mobile {
-  display: none;
-}
+
 #grid {
   display:flex;
   max-width: 1650px;
   flex-wrap: wrap;
   margin: 0 auto;
-  
+
 }
 .grid_item {
   display:flex;
@@ -59,19 +69,3 @@ main2 {
 .grid_item img {
   flex:1;
 }
-footer {
-  height:100px;
-}
-
-/* A partir daqui para baixo, ficam as confs mobile */
-@media screen and (max-width:414px) {
-  /* Ela adiciona uma margem entre os jobs no mobile */
-  .grid_item {
-    padding:2px 5px 2px 5px;
-  }
-  #header_title_mobile {
-    width:100%;
-    display:inherit;
-  }
-  #header_title { display:none};
-} 
