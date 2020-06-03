@@ -5,40 +5,27 @@ html, body {
 
 .menu  {
   background-color: #333333;
-   height:80px;
-    
+  height:80px;
+  
 }
-
-
 .menuesquerda ul li{
   padding: 18px;
   display: inline-block;
-  float: left;
-   }
-
-
-
-.redes-sociais ul li {
-margin-left: 16px;
-display: inline-block;
-float: right;
-
 }
-
-
+.redes-sociais ul li {
+  margin-left: 16px;
+  display: inline-block;
+  
+}
 
 body {
   background-color: #b1f7c6;
   
 }
-
-
-
-
-main2 {
-float: right;
-margin-right: 20px;
-position: relative;
+.main2 {
+  float: right;
+  margin-right: 20px;
+  position: relative;
 }
 
 #main {
@@ -48,7 +35,10 @@ position: relative;
   justify-content: center;
 }
 #header_title img {
-  padding 500px;
+  width:100%;
+  max-width:1900px;
+}
+#header_title_mobile img {
   width:100%;
   max-width:1900px;
 }
@@ -58,7 +48,7 @@ position: relative;
   max-width: 1650px;
   flex-wrap: wrap;
   margin: 0 auto;
-
+  
 }
 .grid_item {
   display:flex;
@@ -70,9 +60,17 @@ position: relative;
   flex:1;
 }
 
-
+/* 
+Daqui para baixo é ajuste do mobile
+*/
 @media screen and (max-width:414px) {
   .grid_item {
     padding:2px 5px 2px 5px;
+  }
+  .main2 {
+    display: none;
+  }
+  #header_title {
+    display:none;
   }
 }
