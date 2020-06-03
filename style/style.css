@@ -2,8 +2,44 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.menu  {
+  background-color: #333333;
+   height:80px;
+  
+  
+}
+
+
+.menuesquerda ul li{
+  padding: 18px;
+  display: inline-block;
+  float: left;
+   }
+
+
+
+.redes-sociais ul li {
+margin-left: 15px;
+display: inline-block;
+float: right;
+
+}
+
+
+
 body {
   background-color: #b1f7c6;
+  
+}
+
+
+
+
+main2 {
+float: right;
+margin-right: 20px;
+position: relative;
 }
 
 #main {
@@ -13,6 +49,7 @@ body {
   justify-content: center;
 }
 #header_title img {
+  padding 500px;
   width:100%;
   max-width:1900px;
 }
