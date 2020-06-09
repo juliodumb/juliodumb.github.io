@@ -3,9 +3,6 @@ html, body {
   padding: 0;
 }
 
-.mouse {
-  cursor: url(ponteiroVermelho.gif), auto;
-}
 .menu  {
   background-color: #333333;
   height:80px;
@@ -74,7 +71,7 @@ footer {
   /* Ela adiciona uma margem entre os jobs no mobile */
   .grid_item {
     padding:2px 5px 2px 5px;
-    width:100%;
+    max-width:414px
     display:inherit
   }
   #header_title_mobile {
