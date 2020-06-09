@@ -3,6 +3,9 @@ html, body {
   padding: 0;
 }
 
+.mouse {
+  cursor: url(ponteiroVermelho.gif), auto;
+}
 .menu  {
   background-color: #333333;
   height:80px;
@@ -19,8 +22,8 @@ html, body {
   float: right;
 }
 body {
-  background-color: #b1f7c6;
-  
+  background-color: #ffffff;
+    
 }
 
 main2 {
@@ -44,6 +47,7 @@ main2 {
   display: none;
 }
 #grid {
+  width: 100%;
   display:flex;
   max-width: 1650px;
   flex-wrap: wrap;
@@ -51,12 +55,14 @@ main2 {
   
 }
 .grid_item {
+  width: 100%;
   display:flex;
   flex: 1;
   padding: 10px;
   justify-content: center;
-}
-.grid_item img {
+  }
+
+  .grid_item img {
   flex:1;
 }
 footer {
@@ -68,6 +74,8 @@ footer {
   /* Ela adiciona uma margem entre os jobs no mobile */
   .grid_item {
     padding:2px 5px 2px 5px;
+    width:100%;
+    display:inherit
   }
   #header_title_mobile {
     width:100%;
