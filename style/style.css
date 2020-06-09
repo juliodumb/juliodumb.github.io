@@ -8,26 +8,24 @@ html, body {
   height:80px;
   
 }
-.menuesquerda ul li{
-  padding: 17px;
-  display: inline-block;
-  float: left;
+
+main{
+padding: 100px;
+  margin-left: 450px;
 }
+
 .redes-sociais ul li {
-  margin-left: 16px;
+ margin-left: 15px;
+  position: relative;
   display: inline-block;
-  float: right;
-}
+  
+ }
+
 body {
   background-color: #ffffff;
     
 }
 
-main2 {
-  float: right;
-  margin-right: 20px;
-  position: relative;
-}
 
 #main {
   padding:5px;
