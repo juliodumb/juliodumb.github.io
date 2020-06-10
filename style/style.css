@@ -3,36 +3,8 @@ html, body {
   padding: 0;
 }
 
-.menu  {
-  background-color: #333333;
-  height:80px;
-  
-}
-
-main{
-padding: 100px;
-  margin-left: 450px;
-}
-
-.redes-sociais ul li {
- margin-left: 15px;
-  position: relative;
-  display: inline-block;
-  
- }
-
 body {
-  background-color: #ffffff;
-    
-}
-
-
-#main {
-  padding:5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  background-color: #ffffff;    }
 
 #header_title img {
   width:100%;
@@ -60,21 +32,31 @@ body {
   .grid_item img {
   flex:1;
 }
-footer {
-  height:100px;
-}
+
+
+.barra-menu ul li {
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+   }
+
 
 /* A partir daqui para baixo, ficam as confs mobile */
-@media screen and (max-width:414px) {
+@media screen and (max-width:900px) {
   /* Ela adiciona uma margem entre os jobs no mobile */
   .grid_item {
     padding:2px 5px 2px 5px;
     max-width:414px
-    display:inherit
+    display:inherit;
   }
   #header_title_mobile {
     width:100%;
     display:inherit;
   }
+
   #header_title {display:none};
-} 
+  
+  footer{
+       bottom: 0px;
+       display: flex;
+  }
