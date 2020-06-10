@@ -49,7 +49,7 @@ body {
    }
 
 
-/* A partir daqui para baixo, ficam as confs mobile */
+/* A partir daqui para baixo, ficam as confss mobile */
 @media screen and (max-width:900px) {
   /* Ela adiciona uma margem entre os jobs no mobile */
   .grid_item {
