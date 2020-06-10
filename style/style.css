@@ -41,9 +41,11 @@ body {
 
 
 .barra-menu ul li {
+  
   margin-left: 15px;
   position: relative;
   display: inline-block;
+  
    }
 
 
@@ -66,4 +68,4 @@ body {
   footer{
        bottom: 0px;
        display: flex;
-  }
+       align-items: center; }
