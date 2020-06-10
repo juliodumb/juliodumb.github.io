@@ -19,18 +19,18 @@ body {
   max-width: 1650px;
   flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: center;
   
 }
 .grid_item {
   width: 100%;
-  display:flex;
-  flex: 1;
-  padding: 10px;
-  justify-content: center;
+  max-width:48.6%;
+  padding:2px 5px 2px 5px;
   }
 
   .grid_item img {
   flex:1;
+  width:100%;
 }
 
 
@@ -46,8 +46,7 @@ body {
   /* Ela adiciona uma margem entre os jobs no mobile */
   .grid_item {
     padding:2px 5px 2px 5px;
-    max-width:414px
-    display:inherit;
+    max-width:414px;
   }
   #header_title_mobile {
     width:100%;
