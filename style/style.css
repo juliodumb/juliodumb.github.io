@@ -48,13 +48,15 @@ body {
     padding:2px 5px 2px 5px;
     max-width:414px;
   }
-  #header_title_mobile {
-    width: 100%;
-    display:inherit;
-  }
 
-  #header_title {display:none};
-  
+  #header_title_mobile {
+    width:100%;
+    max-width:414px;
+    display:inherit; 
+  }
+  #header_title_mobile img {
+    width:100%;
+  }
   footer{
        bottom: 0px;
        display: flex;
