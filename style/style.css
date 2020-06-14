@@ -1,3 +1,5 @@
+Css
+
 html, body {
   margin: 0;
   padding: 0;
@@ -6,7 +8,6 @@ html, body {
 .grid_item a {
   cursor: url("../img/cursor.png"), auto;
 }
-
 
 body {
   background-color: #ffffff; 
@@ -41,7 +42,6 @@ body {
 }
 
 
-
 .barra-menu ul li {
   
  margin-left: 15px;
@@ -49,7 +49,6 @@ body {
   display: inline-block;
   
    }
-
 
 /* A partir daqui para baixo, ficam as confss mobile */
 @media screen and (max-width:900px) {
@@ -71,3 +70,5 @@ body {
        bottom: 0px;
        display: flex;
        align-items: center; }
+
+
