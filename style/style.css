@@ -16,7 +16,7 @@ body {
 
 #header_title img {
   width:100%;
-  max-width:1900px;
+  max-width:3840px;
 }
 #header_title_mobile {
   display: none;
@@ -24,7 +24,7 @@ body {
 #grid {
   width: 100%;
   display:flex;
-  max-width: 1650px;
+  max-width: 3840px;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
